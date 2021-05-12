@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Piano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Virtual Piano</h1>
+
+    <div id="keyboard">
+      <div class="key white" id="c"></div>
+      <div class="key black" id="cSharp"></div>
+      <div class="key white" id="d"></div>
+      <div class="key black" id="dSharp"></div>
+      <div class="key white" id="e"></div>
+      <div class="key white" id="f"></div>
+      <div class="key black" id="fSharp"></div>
+      <div class="key white" id="g"></div>
+      <div class="key black" id="gSharp"></div>
+      <div class="key white" id="a"></div>
+      <div class="key black" id="aSharp"></div>
+      <div class="key white" id="b"></div>
+    </div>
+
+    <p id="notesParagraph"></p>
+
+    <div id="buttons">
+      <button id="playButton">Play notes</button>
+      <button id="twinkleButton">Twinkle</button>
+    </div>
+
+    <audio src="notes/c.mp3" id="cNote"></audio>
+    <audio src="notes/cSharp.mp3" id="cSharpNote"></audio>
+    <audio src="notes/d.mp3" id="dNote"></audio>
+    <audio src="notes/dSharp.mp3" id="dSharpNote"></audio>
+    <audio src="notes/e.mp3" id="eNote"></audio>
+    <audio src="notes/f.mp3" id="fNote"></audio>
+    <audio src="notes/fSharp.mp3" id="fSharpNote"></audio>
+    <audio src="notes/g.mp3" id="gNote"></audio>
+    <audio src="notes/gSharp.mp3" id="gSharpNote"></audio>
+    <audio src="notes/a.mp3" id="aNote"></audio>
+    <audio src="notes/aSharp.mp3" id="aSharpNote"></audio>
+    <audio src="notes/b.mp3" id="bNote"></audio>
+  </body>
+</html>
